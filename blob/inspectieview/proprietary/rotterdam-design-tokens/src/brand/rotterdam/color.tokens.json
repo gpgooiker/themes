@@ -1,0 +1,18 @@
+{
+  "global": {
+    "nl": {
+      "link": {
+        "color": {
+          "value": "#5616ff",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
