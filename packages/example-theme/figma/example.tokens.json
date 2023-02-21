@@ -1,6 +1,6 @@
 {
   "brand": {
-    "voorbeeld": {
+    "inspectieview": {
       "typography": {
         "font-size": {
           "sm": {
@@ -871,7 +871,7 @@
             "y": "2",
             "blur": "6",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{inspectieview.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -882,7 +882,7 @@
             "y": "8",
             "blur": "16",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{inspectieview.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -893,7 +893,7 @@
             "y": "16",
             "blur": "48",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{inspectieview.color.dark.alpha.100}",
             "type": "dropShadow"
           },
           "type": "boxShadow"
@@ -907,59 +907,59 @@
         "default": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.gray.900}"
+            "value": "{inspectieview.color.gray.900}"
           },
           "background-color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{inspectieview.color.white}"
           }
         },
         "inverse": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{inspectieview.color.white}"
           },
           "background-color": {
             "type": "color",
-            "value": "{voorbeeld.color.gray.950}"
+            "value": "{inspectieview.color.gray.950}"
           }
         },
         "subtle": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.gray.600}"
+            "value": "{inspectieview.color.gray.600}"
           }
         }
       },
       "interaction": {
         "color": {
           "type": "color",
-          "value": "{voorbeeld.color.violet.700}"
+          "value": "{inspectieview.color.red.500}"
         },
         "active": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.violet.800}"
+            "value": "{inspectieview.color.red.600}"
           }
         }
       },
       "focus": {
         "color": {
           "type": "color",
-          "value": "{voorbeeld.color.black}"
+          "value": "{inspectieview.color.white}"
         },
         "background-color": {
           "type": "color",
-          "value": "{voorbeeld.color.violet.200}"
+          "value": "{inspectieview.color.red.400}"
         },
         "outline-color": {
           "type": "color",
-          "value": "{voorbeeld.color.violet.700}"
+          "value": "{inspectieview.color.red.600}"
         },
         "reverse": {
           "outline-color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{inspectieview.color.black}"
           }
         },
         "outline-style": {
@@ -971,7 +971,7 @@
           "type": "other"
         },
         "outline-width": {
-          "value": "{voorbeeld.border-width.md}",
+          "value": "{inspectieview.border-width.md}",
           "type": "borderWidth"
         }
       },
@@ -979,45 +979,45 @@
         "focus": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.black}"
+            "value": "{inspectieview.color.black}"
           },
           "background-color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{inspectieview.color.white}"
           }
         },
         "border-color": {
-          "value": "{voorbeeld.color.gray.500}",
+          "value": "{inspectieview.color.gray.500}",
           "type": "color"
         }
       },
       "heading": {
         "font-family": {
-          "value": "{voorbeeld.typography.font-family.primary}",
+          "value": "{inspectieview.typography.font-family.primary}",
           "type": "fontFamilies"
         }
       },
       "body": {
         "font-family": {
-          "value": "{voorbeeld.typography.font-family.secondary}",
+          "value": "{inspectieview.typography.font-family.secondary}",
           "type": "fontFamilies"
         }
       },
       "root": {
         "background-color": {
-          "value": "{voorbeeld.color.gray.50}",
+          "value": "{inspectieview.color.gray.50}",
           "type": "color"
         }
       },
       "line": {
         "border-color": {
-          "value": "{voorbeeld.color.gray.200}",
+          "value": "{inspectieview.color.gray.200}",
           "type": "color"
         }
       },
       "container": {
         "border-color": {
-          "value": "{voorbeeld.color.gray.200}",
+          "value": "{inspectieview.color.gray.200}",
           "type": "color"
         }
       },
@@ -1029,20 +1029,20 @@
       },
       "pointer-target": {
         "min-size": {
-          "value": "{voorbeeld.size.md}",
+          "value": "{inspectieview.size.md}",
           "type": "sizing"
         }
       },
       "icon": {
         "functional": {
           "size": {
-            "value": "{voorbeeld.size.xs}",
+            "value": "{inspectieview.size.xs}",
             "type": "sizing"
           }
         },
         "toptask": {
           "size": {
-            "value": "{voorbeeld.size.md}",
+            "value": "{inspectieview.size.md}",
             "type": "sizing"
           }
         }
@@ -1057,7 +1057,7 @@
           "type": "color"
         },
         "border-radius": {
-          "value": "{voorbeeld.border-radius.round}",
+          "value": "{inspectieview.border-radius.round}",
           "type": "borderRadius"
         },
         "height": {
@@ -1077,11 +1077,11 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{inspectieview.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{inspectieview.typography.line-height.md}",
           "type": "lineHeights"
         },
         "text-transform": {
@@ -1089,11 +1089,11 @@
           "type": "textCase"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.md}",
+          "value": "{inspectieview.typography.font-size.md}",
           "type": "fontSizes"
         },
         "border-width": {
-          "value": "{voorbeeld.border-width.sm}",
+          "value": "{inspectieview.border-width.sm}",
           "type": "borderWidth"
         },
         "border-color": {
@@ -1120,7 +1120,7 @@
           "hover": {
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.white}"
+              "value": "{inspectieview.color.white}"
             },
             "background-color": {
               "type": "color",
@@ -1133,7 +1133,7 @@
           },
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{inspectieview.color.white}"
           },
           "background-color": {
             "type": "color",
@@ -1146,11 +1146,11 @@
           "disabled": {
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.500}"
+              "value": "{inspectieview.color.gray.500}"
             },
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.50}"
+              "value": "{inspectieview.color.gray.50}"
             },
             "border-color": {
               "value": "transparent",
@@ -1160,7 +1160,7 @@
           "focus": {
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.white}"
+              "value": "{inspectieview.color.white}"
             },
             "background-color": {
               "type": "color",
@@ -1180,7 +1180,7 @@
             },
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.dark.alpha.50}"
+              "value": "{inspectieview.color.dark.alpha.50}"
             },
             "border-color": {
               "type": "color",
@@ -1193,7 +1193,7 @@
           },
           "background-color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{inspectieview.color.white}"
           },
           "border-color": {
             "type": "color",
@@ -1202,11 +1202,11 @@
           "disabled": {
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.500}"
+              "value": "{inspectieview.color.gray.500}"
             },
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.50}"
+              "value": "{inspectieview.color.gray.50}"
             },
             "border-color": {
               "type": "color",
@@ -1220,7 +1220,7 @@
             },
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.dark.alpha.50}"
+              "value": "{inspectieview.color.dark.alpha.50}"
             },
             "border-color": {
               "type": "color",
@@ -1230,23 +1230,23 @@
         },
         "color": {
           "type": "color",
-          "value": "{voorbeeld.color.gray.900}"
+          "value": "{inspectieview.color.gray.900}"
         },
         "background-color": {
           "type": "color",
-          "value": "{voorbeeld.color.white}"
+          "value": "{inspectieview.color.white}"
         },
         "border-color": {
           "type": "color",
-          "value": "{voorbeeld.color.gray.900}"
+          "value": "{inspectieview.color.gray.900}"
         },
         "border-radius": {
           "type": "borderRadius",
-          "value": "{voorbeeld.border-radius.md}"
+          "value": "{inspectieview.border-radius.md}"
         },
         "border-width": {
           "type": "borderWidth",
-          "value": "{voorbeeld.border-width.sm}"
+          "value": "{inspectieview.border-width.sm}"
         },
         "icon": {
           "size": {
@@ -1254,7 +1254,7 @@
             "value": "{nl.icon.functional.size}"
           },
           "gap": {
-            "value": "{voorbeeld.space.inline.beetle}",
+            "value": "{inspectieview.space.inline.beetle}",
             "type": "spacing"
           }
         },
@@ -1263,56 +1263,56 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.md}",
+          "value": "{inspectieview.typography.font-size.md}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{inspectieview.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{inspectieview.typography.line-height.md}",
           "type": "lineHeights"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-inline-start": {
-          "value": "{voorbeeld.space.inline.beetle}",
+          "value": "{inspectieview.space.inline.beetle}",
           "type": "spacing"
         },
         "margin-inline-end": {
-          "value": "{voorbeeld.space.inline.beetle}",
+          "value": "{inspectieview.space.inline.beetle}",
           "type": "spacing"
         },
         "padding-block-start": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{inspectieview.space.block.snail}",
           "type": "spacing"
         },
         "padding-block-end": {
-          "value": "{voorbeeld.space.block.snail}",
+          "value": "{inspectieview.space.block.snail}",
           "type": "spacing"
         },
         "padding-inline-start": {
-          "value": "{voorbeeld.space.block.mouse}",
+          "value": "{inspectieview.space.block.mouse}",
           "type": "spacing"
         },
         "padding-inline-end": {
-          "value": "{voorbeeld.space.block.mouse}",
+          "value": "{inspectieview.space.block.mouse}",
           "type": "spacing"
         },
         "disabled": {
           "color": {
-            "value": "{voorbeeld.color.gray.500}",
+            "value": "{inspectieview.color.gray.500}",
             "type": "color"
           },
           "background-color": {
-            "value": "{voorbeeld.color.gray.50}",
+            "value": "{inspectieview.color.gray.50}",
             "type": "color"
           },
           "border-color": {
@@ -1326,7 +1326,7 @@
             "type": "color"
           },
           "background-color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{inspectieview.color.white}",
             "type": "color"
           },
           "border-color": {
@@ -1340,7 +1340,7 @@
             "type": "color"
           },
           "background-color": {
-            "value": "{voorbeeld.color.white}",
+            "value": "{inspectieview.color.white}",
             "type": "color"
           },
           "border-color": {
@@ -1356,7 +1356,7 @@
             },
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.dark.alpha.50}"
+              "value": "{inspectieview.color.dark.alpha.50}"
             },
             "border-color": {
               "type": "color",
@@ -1378,11 +1378,11 @@
           "disabled": {
             "color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.500}"
+              "value": "{inspectieview.color.gray.500}"
             },
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.gray.50}"
+              "value": "{inspectieview.color.gray.50}"
             },
             "border-color": {
               "type": "color",
@@ -1396,7 +1396,7 @@
             },
             "background-color": {
               "type": "color",
-              "value": "{voorbeeld.color.dark.alpha.50}"
+              "value": "{inspectieview.color.dark.alpha.50}"
             },
             "border-color": {
               "type": "color",
@@ -1413,9 +1413,9 @@
         "text-style": {
           "value": {
             "fontFamily": "{nl.heading.font-family}",
-            "fontWeight": "{voorbeeld.typography.font-weight.bold}",
-            "lineHeight": "{voorbeeld.typography.line-height.sm}",
-            "fontSize": "{voorbeeld.typography.font-size.3xl}",
+            "fontWeight": "{inspectieview.typography.font-weight.bold}",
+            "lineHeight": "{inspectieview.typography.line-height.sm}",
+            "fontSize": "{inspectieview.typography.font-size.3xl}",
             "letterSpacing": "normal",
             "paragraphSpacing": "0",
             "textCase": "none",
@@ -1428,23 +1428,23 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{inspectieview.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.sm}",
+          "value": "{inspectieview.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.3xl}",
+          "value": "{inspectieview.typography.font-size.3xl}",
           "type": "fontSizes"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         }
       },
@@ -1456,9 +1456,9 @@
         "text-style": {
           "value": {
             "fontFamily": "{nl.heading.font-family}",
-            "fontWeight": "{voorbeeld.typography.font-weight.bold}",
-            "lineHeight": "{voorbeeld.typography.line-height.sm}",
-            "fontSize": "{voorbeeld.typography.font-size.2xl}",
+            "fontWeight": "{inspectieview.typography.font-weight.bold}",
+            "lineHeight": "{inspectieview.typography.line-height.sm}",
+            "fontSize": "{inspectieview.typography.font-size.2xl}",
             "letterSpacing": "normal",
             "paragraphSpacing": "0",
             "textCase": "none",
@@ -1471,23 +1471,23 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{inspectieview.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.sm}",
+          "value": "{inspectieview.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.2xl}",
+          "value": "{inspectieview.typography.font-size.2xl}",
           "type": "fontSizes"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         }
       },
@@ -1499,9 +1499,9 @@
         "text-style": {
           "value": {
             "fontFamily": "{nl.heading.font-family}",
-            "fontWeight": "{voorbeeld.typography.font-weight.bold}",
-            "lineHeight": "{voorbeeld.typography.line-height.sm}",
-            "fontSize": "{voorbeeld.typography.font-size.xl}",
+            "fontWeight": "{inspectieview.typography.font-weight.bold}",
+            "lineHeight": "{inspectieview.typography.line-height.sm}",
+            "fontSize": "{inspectieview.typography.font-size.xl}",
             "letterSpacing": "normal",
             "paragraphSpacing": "0",
             "textCase": "none",
@@ -1514,23 +1514,23 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{inspectieview.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.sm}",
+          "value": "{inspectieview.typography.line-height.sm}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.xl}",
+          "value": "{inspectieview.typography.font-size.xl}",
           "type": "fontSizes"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         }
       },
@@ -1542,9 +1542,9 @@
         "text-style": {
           "value": {
             "fontFamily": "{nl.heading.font-family}",
-            "fontWeight": "{voorbeeld.typography.font-weight.bold}",
-            "lineHeight": "{voorbeeld.typography.line-height.md}",
-            "fontSize": "{voorbeeld.typography.font-size.lg}",
+            "fontWeight": "{inspectieview.typography.font-weight.bold}",
+            "lineHeight": "{inspectieview.typography.line-height.md}",
+            "fontSize": "{inspectieview.typography.font-size.lg}",
             "letterSpacing": "normal",
             "paragraphSpacing": "0",
             "textCase": "none",
@@ -1557,23 +1557,23 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{inspectieview.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{inspectieview.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.lg}",
+          "value": "{inspectieview.typography.font-size.lg}",
           "type": "fontSizes"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         }
       },
@@ -1585,9 +1585,9 @@
         "text-style": {
           "value": {
             "fontFamily": "{nl.heading.font-family}",
-            "fontWeight": "{voorbeeld.typography.font-weight.bold}",
-            "lineHeight": "{voorbeeld.typography.line-height.md}",
-            "fontSize": "{voorbeeld.typography.font-size.md}",
+            "fontWeight": "{inspectieview.typography.font-weight.bold}",
+            "lineHeight": "{inspectieview.typography.line-height.md}",
+            "fontSize": "{inspectieview.typography.font-size.md}",
             "letterSpacing": "normal",
             "paragraphSpacing": "0",
             "textCase": "none",
@@ -1600,23 +1600,23 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{inspectieview.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{inspectieview.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.md}",
+          "value": "{inspectieview.typography.font-size.md}",
           "type": "fontSizes"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         }
       },
@@ -1628,9 +1628,9 @@
         "text-style": {
           "value": {
             "fontFamily": "{nl.heading.font-family}",
-            "fontWeight": "{voorbeeld.typography.font-weight.bold}",
-            "lineHeight": "{voorbeeld.typography.line-height.md}",
-            "fontSize": "{voorbeeld.typography.font-size.sm}",
+            "fontWeight": "{inspectieview.typography.font-weight.bold}",
+            "lineHeight": "{inspectieview.typography.line-height.md}",
+            "fontSize": "{inspectieview.typography.font-size.sm}",
             "letterSpacing": "normal",
             "paragraphSpacing": "0",
             "textCase": "none",
@@ -1643,23 +1643,23 @@
           "type": "fontFamilies"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.bold}",
+          "value": "{inspectieview.typography.font-weight.bold}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{inspectieview.typography.line-height.md}",
           "type": "lineHeights"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.sm}",
+          "value": "{inspectieview.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         }
       },
@@ -1710,12 +1710,12 @@
             "value": "{nl.icon.functional.size}"
           },
           "gap": {
-            "value": "{voorbeeld.space.inline.beetle}",
+            "value": "{inspectieview.space.inline.beetle}",
             "type": "spacing"
           }
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.md}",
+          "value": "{inspectieview.typography.font-size.md}",
           "type": "fontSizes"
         },
         "font-family": {
@@ -1731,9 +1731,9 @@
         "text-style": {
           "value": {
             "fontFamily": "{nl.body.font-family}",
-            "fontWeight": "{voorbeeld.typography.font-weight.normal}",
-            "lineHeight": "{voorbeeld.typography.line-height.md}",
-            "fontSize": "{voorbeeld.typography.font-size.md}",
+            "fontWeight": "{inspectieview.typography.font-weight.normal}",
+            "lineHeight": "{inspectieview.typography.line-height.md}",
+            "fontSize": "{inspectieview.typography.font-size.md}",
             "letterSpacing": "0",
             "paragraphSpacing": "0",
             "textCase": "none",
@@ -1746,23 +1746,23 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.md}",
+          "value": "{inspectieview.typography.font-size.md}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.normal}",
+          "value": "{inspectieview.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{inspectieview.typography.line-height.md}",
           "type": "lineHeights"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         }
       },
@@ -1774,9 +1774,9 @@
         "text-style": {
           "value": {
             "fontFamily": "{nl.body.font-family}",
-            "fontWeight": "{voorbeeld.typography.font-weight.normal}",
-            "lineHeight": "{voorbeeld.typography.line-height.md}",
-            "fontSize": "{voorbeeld.typography.font-size.lg}",
+            "fontWeight": "{inspectieview.typography.font-weight.normal}",
+            "lineHeight": "{inspectieview.typography.line-height.md}",
+            "fontSize": "{inspectieview.typography.font-size.lg}",
             "letterSpacing": "0",
             "paragraphSpacing": "0",
             "textCase": "none",
@@ -1789,23 +1789,23 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.lg}",
+          "value": "{inspectieview.typography.font-size.lg}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.normal}",
+          "value": "{inspectieview.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{inspectieview.typography.line-height.md}",
           "type": "lineHeights"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         }
       },
@@ -1817,9 +1817,9 @@
         "text-style": {
           "value": {
             "fontFamily": "{nl.body.font-family}",
-            "fontWeight": "{voorbeeld.typography.font-weight.normal}",
-            "lineHeight": "{voorbeeld.typography.line-height.md}",
-            "fontSize": "{voorbeeld.typography.font-size.sm}",
+            "fontWeight": "{inspectieview.typography.font-weight.normal}",
+            "lineHeight": "{inspectieview.typography.line-height.md}",
+            "fontSize": "{inspectieview.typography.font-size.sm}",
             "letterSpacing": "0",
             "paragraphSpacing": "0",
             "textCase": "none",
@@ -1832,23 +1832,23 @@
           "type": "fontFamilies"
         },
         "font-size": {
-          "value": "{voorbeeld.typography.font-size.sm}",
+          "value": "{inspectieview.typography.font-size.sm}",
           "type": "fontSizes"
         },
         "font-weight": {
-          "value": "{voorbeeld.typography.font-weight.normal}",
+          "value": "{inspectieview.typography.font-weight.normal}",
           "type": "fontWeights"
         },
         "line-height": {
-          "value": "{voorbeeld.typography.line-height.md}",
+          "value": "{inspectieview.typography.line-height.md}",
           "type": "lineHeights"
         },
         "margin-block-start": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         },
         "margin-block-end": {
-          "value": "{voorbeeld.space.block.beetle}",
+          "value": "{inspectieview.space.block.beetle}",
           "type": "spacing"
         }
       }
@@ -1860,59 +1860,59 @@
         "default": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.gray.50}"
+            "value": "{inspectieview.color.gray.50}"
           },
           "background-color": {
             "type": "color",
-            "value": "{voorbeeld.color.gray.950}"
+            "value": "{inspectieview.color.gray.950}"
           }
         },
         "inverse": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.blue.950}"
+            "value": "{inspectieview.color.blue.950}"
           },
           "background-color": {
             "type": "color",
-            "value": "{voorbeeld.color.gray.50}"
+            "value": "{inspectieview.color.gray.50}"
           }
         },
         "subtle": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.gray.400}"
+            "value": "{inspectieview.color.gray.400}"
           }
         }
       },
       "interaction": {
         "color": {
           "type": "color",
-          "value": "{voorbeeld.color.violet.500}"
+          "value": "{inspectieview.color.violet.500}"
         },
         "active": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.violet.600}"
+            "value": "{inspectieview.color.violet.600}"
           }
         }
       },
       "focus": {
         "color": {
           "type": "color",
-          "value": "{voorbeeld.color.black}"
+          "value": "{inspectieview.color.black}"
         },
         "background-color": {
           "type": "color",
-          "value": "{voorbeeld.color.violet.200}"
+          "value": "{inspectieview.color.violet.200}"
         },
         "outline-color": {
           "type": "color",
-          "value": "{voorbeeld.color.violet.700}"
+          "value": "{inspectieview.color.violet.700}"
         },
         "reverse": {
           "outline-color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{inspectieview.color.white}"
           }
         }
       },
@@ -1920,33 +1920,33 @@
         "focus": {
           "color": {
             "type": "color",
-            "value": "{voorbeeld.color.black}"
+            "value": "{inspectieview.color.black}"
           },
           "background-color": {
             "type": "color",
-            "value": "{voorbeeld.color.white}"
+            "value": "{inspectieview.color.white}"
           }
         },
         "border-color": {
-          "value": "{voorbeeld.color.gray.500}",
+          "value": "{inspectieview.color.gray.500}",
           "type": "color"
         }
       },
       "root": {
         "background-color": {
-          "value": "{voorbeeld.color.gray.800}",
+          "value": "{inspectieview.color.gray.800}",
           "type": "color"
         }
       },
       "line": {
         "border-color": {
-          "value": "{voorbeeld.color.gray.200}",
+          "value": "{inspectieview.color.gray.200}",
           "type": "color"
         }
       },
       "container": {
         "border-color": {
-          "value": "{voorbeeld.color.gray.200}",
+          "value": "{inspectieview.color.gray.200}",
           "type": "color"
         }
       },
