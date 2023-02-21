@@ -770,15 +770,15 @@
       },
       "border-radius": {
         "sm": {
-          "value": "4px",
+          "value": "1",
           "type": "borderRadius"
         },
         "md": {
-          "value": "8px",
+          "value": "1",
           "type": "borderRadius"
         },
         "lg": {
-          "value": "16px",
+          "value": "1",
           "type": "borderRadius"
         },
         "round": {
@@ -902,150 +902,32 @@
     }
   },
   "common": {
-    "nl": {
-      "document": {
-        "default": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.gray.900}"
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{inspectieview.color.white}"
-          }
-        },
-        "inverse": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.white}"
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{inspectieview.color.gray.950}"
-          }
-        },
-        "subtle": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.gray.600}"
-          }
-        }
+    "block": {
+      "horizontal": {
+        "value": "{inspectieview.space.block.cat}",
+        "type": "spacing"
       },
-      "interaction": {
-        "color": {
-          "type": "color",
-          "value": "{inspectieview.color.red.500}"
-        },
-        "active": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.red.600}"
-          }
-        }
+      "vertical": {
+        "value": "{inspectieview.space.block.cat}",
+        "type": "spacing"
       },
-      "focus": {
-        "color": {
-          "type": "color",
-          "value": "{inspectieview.color.white}"
-        },
-        "background-color": {
-          "type": "color",
-          "value": "{inspectieview.color.red.400}"
-        },
-        "outline-color": {
-          "type": "color",
-          "value": "{inspectieview.color.red.600}"
-        },
-        "reverse": {
-          "outline-color": {
-            "type": "color",
-            "value": "{inspectieview.color.black}"
-          }
-        },
-        "outline-style": {
-          "value": "dotted",
-          "type": "other"
-        },
-        "outline-offset": {
-          "value": "0",
-          "type": "other"
-        },
-        "outline-width": {
-          "value": "{inspectieview.border-width.md}",
-          "type": "borderWidth"
-        }
+      "gap": {
+        "value": "{inspectieview.space.block.mouse}",
+        "type": "spacing"
+      }
+    },
+    "inline": {
+      "horizontal": {
+        "value": "{inspectieview.space.inline.beetle}",
+        "type": "spacing"
       },
-      "form-input": {
-        "focus": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.black}"
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{inspectieview.color.white}"
-          }
-        },
-        "border-color": {
-          "value": "{inspectieview.color.gray.500}",
-          "type": "color"
-        }
+      "vertical": {
+        "value": "{inspectieview.space.inline.ant}",
+        "type": "spacing"
       },
-      "heading": {
-        "font-family": {
-          "value": "{inspectieview.typography.font-family.primary}",
-          "type": "fontFamilies"
-        }
-      },
-      "body": {
-        "font-family": {
-          "value": "{inspectieview.typography.font-family.secondary}",
-          "type": "fontFamilies"
-        }
-      },
-      "root": {
-        "background-color": {
-          "value": "{inspectieview.color.gray.50}",
-          "type": "color"
-        }
-      },
-      "line": {
-        "border-color": {
-          "value": "{inspectieview.color.gray.200}",
-          "type": "color"
-        }
-      },
-      "container": {
-        "border-color": {
-          "value": "{inspectieview.color.gray.200}",
-          "type": "color"
-        }
-      },
-      "transparent": {
-        "border-color": {
-          "value": "transparent",
-          "type": "color"
-        }
-      },
-      "pointer-target": {
-        "min-size": {
-          "value": "{inspectieview.size.md}",
-          "type": "sizing"
-        }
-      },
-      "icon": {
-        "functional": {
-          "size": {
-            "value": "{inspectieview.size.xs}",
-            "type": "sizing"
-          }
-        },
-        "toptask": {
-          "size": {
-            "value": "{inspectieview.size.md}",
-            "type": "sizing"
-          }
-        }
+      "gap": {
+        "value": "{inspectieview.space.inline.beetle}",
+        "type": "spacing"
       }
     }
   },
