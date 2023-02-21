@@ -1736,117 +1736,12 @@
       }
     }
   },
-  "common_dm": {
-    "nl": {
-      "document": {
-        "default": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.gray.50}"
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{inspectieview.color.gray.950}"
-          }
-        },
-        "inverse": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.blue.950}"
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{inspectieview.color.gray.50}"
-          }
-        },
-        "subtle": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.gray.400}"
-          }
-        }
-      },
-      "interaction": {
-        "color": {
-          "type": "color",
-          "value": "{inspectieview.color.violet.500}"
-        },
-        "active": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.violet.600}"
-          }
-        }
-      },
-      "focus": {
-        "color": {
-          "type": "color",
-          "value": "{inspectieview.color.black}"
-        },
-        "background-color": {
-          "type": "color",
-          "value": "{inspectieview.color.violet.200}"
-        },
-        "outline-color": {
-          "type": "color",
-          "value": "{inspectieview.color.violet.700}"
-        },
-        "reverse": {
-          "outline-color": {
-            "type": "color",
-            "value": "{inspectieview.color.white}"
-          }
-        }
-      },
-      "form-input": {
-        "focus": {
-          "color": {
-            "type": "color",
-            "value": "{inspectieview.color.black}"
-          },
-          "background-color": {
-            "type": "color",
-            "value": "{inspectieview.color.white}"
-          }
-        },
-        "border-color": {
-          "value": "{inspectieview.color.gray.500}",
-          "type": "color"
-        }
-      },
-      "root": {
-        "background-color": {
-          "value": "{inspectieview.color.gray.800}",
-          "type": "color"
-        }
-      },
-      "line": {
-        "border-color": {
-          "value": "{inspectieview.color.gray.200}",
-          "type": "color"
-        }
-      },
-      "container": {
-        "border-color": {
-          "value": "{inspectieview.color.gray.200}",
-          "type": "color"
-        }
-      },
-      "transparent": {
-        "border-color": {
-          "value": "transparent",
-          "type": "color"
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "brand",
       "common",
-      "component",
-      "common_dm"
+      "component"
     ]
   }
 }
