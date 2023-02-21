@@ -929,6 +929,12 @@
         "value": "{inspectieview.space.inline.beetle}",
         "type": "spacing"
       }
+    },
+    "filter": {
+      "width": {
+        "value": "350",
+        "type": "sizing"
+      }
     }
   },
   "component": {
